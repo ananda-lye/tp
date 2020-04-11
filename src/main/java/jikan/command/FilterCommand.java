@@ -57,7 +57,6 @@ public class FilterCommand extends Command {
      */
     @Override
     public void executeCommand(ActivityList activityList) {
-        // remove the magic number later
         String[] tokenizedParameters = parameters.split(";", 2);
         if (tokenizedParameters.length > 1) {
             executeChainedCommand(activityList, tokenizedParameters);
