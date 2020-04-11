@@ -55,7 +55,6 @@ public class FindCommand extends Command {
      */
     @Override
     public void executeCommand(ActivityList activityList) {
-        // remove the magic number later
         String[] tokenizedParameters = parameters.split(" ;", 2);
         try {
             checkForInvalidChaining();
